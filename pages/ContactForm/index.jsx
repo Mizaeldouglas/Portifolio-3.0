@@ -1,7 +1,5 @@
 import Link from 'next/link';
 import { useState } from 'react';
-import Navbar from 'src/Components/NavBar/NavBar';
-import Navlink from 'src/Components/NavBar/NavibarLink';
 import Box from 'src/Components/Ui/Box';
 import InputField from 'src/Components/Ui/InputField';
 import Spinner from 'src/Components/Ui/Spinner';
