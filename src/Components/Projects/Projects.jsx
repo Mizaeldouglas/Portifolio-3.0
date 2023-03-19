@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import ProjectsPage from 'pages/ProjectsPage';
+
 import Project from './Project/Project';
 import styles from './Projects.module.scss';
 
@@ -13,9 +12,7 @@ export default function Projects({ projects }) {
         <section className={styles.projects} id='projects' data-aos="fade-up">
             <h2>{title}</h2>
             <ul className={styles.list}>{renderProjects}</ul>
-            <Link href="/ProjectsPage" as="/projetos" project={projects} className='btn btn-primary'>
-                {button}
-            </Link>
+
         </section>
     )
 }
