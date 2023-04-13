@@ -57,7 +57,7 @@ const Navbar = () => {
                                     text='Projetos'
                                     toggleMenu={() => setIsMenu(!isMenu)}
                                 />
-                                <Link href="/ContactForm" as="/projetos">Contato</Link>
+                                <Link className={styles.link} href="/ContactForm" as="/projetos">Contato</Link>
                                 <Navlink
                                     target='_blank'
                                     url="https://drive.google.com/file/d/1iwkBpv9OtwiS7yb1sQoRhxOAmFtb-5lI/view"
