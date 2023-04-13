@@ -7,16 +7,16 @@ export default function Project({ project }) {
 
     const imageUrl = useSanityImage();
 
-    const renderTechnologies = technologies.map((technology) => (
-        <span key={technology._key}>{technology.technology}</span>
-    ));
+    //const renderTechnologies = technologies.map((technology) => (
+      //  <span key={technology._key}>{technology.technology}</span>
+    //));
     return (
         <li className={styles.project} data-aos="flip-left">
             <a href={url} target='_blank'>
                 <div className={styles.image}>
                     <Image src={imageUrl(image).url()} fill />
                 </div>
-                {renderTechnologies}
+                //{renderTechnologies}
                 <h3>{title}</h3>
                 <p>{description}
                 </p>
