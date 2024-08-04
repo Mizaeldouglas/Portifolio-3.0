@@ -8,7 +8,7 @@ export default function Project({ project }) {
     const imageUrl = useSanityImage();
 
     //const renderTechnologies = technologies.map((technology) => (
-      //  <span key={technology._key}>{technology.technology}</span>
+    //  <span key={technology._key}>{technology.technology}</span>
     //));
     return (
         <li className={styles.project} data-aos="flip-left">
@@ -16,7 +16,11 @@ export default function Project({ project }) {
                 <div className={styles.image}>
                     <Image src={imageUrl(image).url()} fill />
                 </div>
-                //{renderTechnologies}
+
+                <div>
+                    
+                </div>
+                {/* {renderTechnologies} */}
                 <h3>{title}</h3>
                 <p>{description}
                 </p>
